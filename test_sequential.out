@@ -1,0 +1,47 @@
+06 January 2026 07:23:24 PM
+
+MD
+ C version (Sequential)
+ A molecular dynamics program.
+
+MD Sequential
+ C version (No OpenMP)
+
+ A molecular dynamics program.
+
+ NP, the number of particles in the simulation is 500
+ STEP_NUM, the number of time steps, is 100
+ DT, the size of each time step, is 0.000100
+
+
+ Initializing positions, velocities, and accelerations.
+
+ Computing initial forces and energies.
+
+ At each step, we report the potential and kinetic energies.
+ The sum of these energies should be a constant.
+ As an accuracy check, we also print the relative error
+ in the total energy.
+
+ Step Potential Kinetic     (P+K-E0)/E0
+    Energy P    Energy K    Relative Energy Error
+
+        0  124406.486423       0.000000   0.000000e+00
+       10  124406.485819       0.000605   1.684226e-11
+       20  124406.483557       0.002868   1.683150e-11
+       30  124406.479618       0.006807   1.679851e-11
+       40  124406.474003       0.012421   1.672997e-11
+       50  124406.466712       0.019712   1.661978e-11
+       60  124406.457745       0.028680   1.644877e-11
+       70  124406.447101       0.039324   1.620524e-11
+       80  124406.434781       0.051644   1.588801e-11
+       90  124406.420783       0.065641   1.547289e-11
+      100  124406.405109       0.081316   1.495377e-11
+
+ Elapsed time for main computation:
+ 0.771202 seconds.
+
+MD Sequential
+ Normal end of execution.
+
+06 January 2026 07:23:25 PM
